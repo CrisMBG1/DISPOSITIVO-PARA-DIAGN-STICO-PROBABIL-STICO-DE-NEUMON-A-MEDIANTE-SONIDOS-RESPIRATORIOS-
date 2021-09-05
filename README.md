@@ -194,3 +194,39 @@ Se logró la identificación de las ondas RQT para para determinar variaciones e
 Dados los resultados se logró obtener un diagnóstico probabilístico de varias patologías respiratorias y no únicamente neumonía en donde estas son asma, bronquiectasia, bronquiolitis, COPD (enfermedad pulmonar obstructiva crónica), LRTI (Infección del tracto respiratorio inferior), Neumonía y URTI (Infección del tracto respiratorio superior) con la precisión dada en los resultados.
 El sensor de electrocardiografía implementado se logró correlacionar con la sintomatología de esta patología, debido a la relación que tiene las ondas e intervalos de las señales electrocardiográficas cuando estas no están sobre los valores normales, así aumentando la probabilidad del diagnóstico, este desarrollo podría ser utilizado como complemento para un diagnóstico clínico de enfermedades respiratorias.
 
+
+
+## Bibliografia
+
+
+-Javeriana, P. U. (2018). Neumonía adquirida en la comunidad: una revisión narrativa. 54. doi:doi: https://doi.org/10.11144/Javeriana.umed59-4.neum
+
+-Claudia Calderón, R. D. (2014). Costos económicos de neumonía adquirida en comunidad, meningitis y bacteriemia por Streptococcus pneumoniae en una población adulta que requirió hospitalización en Bogotá, Colombia. Revista del instituto nacional de salud , 34(1). doi:http://dx.doi.org/10.7705/biomedica.v34i1.1553
+
+-Instituto nacional de salud. (2019). Dirección de Vigilancia y Análisis del riesgo en salud pública. Boletín Epidemiológico Semanal 40. doi:https://doi.org/10.33610/23576189.2019.40
+
+-Andrés Martín A, A. d. (2017). Complicaciones de la neumonía adquirida en la comunidad: derrame pleural, neumonía necrotizante, absceso pulmonar y pioneumotórax . Obtenido de https://www.aeped.es/sites/default/files/documentos
+"Respiratory Sound Database", kaggle.com, 2020. [Online]. Available:https://www.kaggle.com/vbookshelf/respiratory-sound-database. [Accessed: 11- Sep- 2020].
+
+-"Cough Sound Recognition in Respiratory Disease Epidemics", ROMANIAN JOURNAL OF INFORMATION SCIENCE AND TECHNOLOGY, no. 23, pp. S77–88, 2020.
+
+-S. Albawi, T. A. Mohammed and S. Al-Zawi, "Understanding of a convolutional neural network," 2017 International Conference on Engineering and Technology (ICET), 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
+
+-T. N. Sainath, A. Mohamed, B. Kingsbury and B. Ramabhadran, "Deep convolutional neural networks for LVCSR," 2013 IEEE International Conference on Acoustics, Speech and Signal Processing, 2013, pp. 8614-8618, doi: 10.1109/ICASSP.2013.6639347.
+
+-S. Lawrence, C. L. Giles, Ah Chung Tsoi and A. D. Back, "Face recognition: a convolutional neural-network approach," in IEEE Transactions on Neural Networks, vol. 8, no. 1, pp. 98-113, Jan. 1997, doi: 10.1109/72.554195.
+
+-ANAlOG. DEVICES, “Single-lead, heart rate monitor front end,” [Online]. Available: https://www.analog.com/media/en/technical-documentation/data-sheets/ad8232.pdf [Accessed: 11- Marzo- 2020].
+
+-ST, “STM32F103x8 Datasheet” [Online]. Available: https://www.st.com/resource/en/datasheet/stm32f103c8.pdf [Accessed: 11- Marzo- 2020].
+
+-ST, “FT232R USB UART IC Datasheet” [Online]. Available: http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DSFT232R.pdf [Accessed: 20- Marzo- 2020].
+
+-ST, “L78” [Online]. Available: https://www.st.com/resource/en/datasheet/l78.pdf [Accessed: 20- Marzo- 2020].
+
+-ST, “LD39015” [Online]. Available: https://www.st.com/resource/en/datasheet/ld39015.pdf [Accessed: 20- Marzo- 2020].
+
+-"Diseño e implementación de un sistema electrocardiográfico digital", Scielo.org.co, 2010. [Online]. Available: http://www.scielo.org.co/pdf/rfiua/n55/n55a10.pdf. [Accessed: 12- Nov- 2020].
+
+-"Einthoven's triangle", En.wikipedia.org, 2020. [Online]. Available: https://en.wikipedia.org/wiki/Einthoven-27s-triangle. [Accessed: 15- Nov- 2020].
+
