@@ -146,6 +146,7 @@ Para la elaboración de la CNN se usaron las librerías de tensorflow keras, num
 En este artículo se implementó el modelo CNN con la arquitectura Figura 12. con los parámetros de la Tabla 1.
 
 Tabla 1. Parámetros para el modelo CNN - clasificación de los sonidos respiratorios.
+
 ![Tabla1](https://user-images.githubusercontent.com/88993846/132111567-b912adf1-9afc-455c-a46b-94140eae423a.JPG)
 
 
