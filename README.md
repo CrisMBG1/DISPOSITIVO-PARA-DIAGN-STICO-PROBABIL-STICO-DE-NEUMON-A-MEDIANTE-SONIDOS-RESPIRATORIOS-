@@ -128,10 +128,7 @@ En una red neuronal convolucional, las neuronas sencillas de un perceptrón son 
 
 
 
-\begin{equation}
-Y_{i}=g(b_{j}+\sum K_{ji}\oplus Y_{j})
-\label{eq:RedNeuro}
-\end{equation}
+![Ecuacion1](https://user-images.githubusercontent.com/88993846/132111563-dcb8af44-55df-487e-8b4a-58c8eb192ac3.JPG)
 
 ![CNN](https://user-images.githubusercontent.com/88993846/132111334-47d0864a-8e66-47fd-8027-403b9e95fa2b.png)
 
@@ -148,24 +145,9 @@ Estos sonidos se procesan en Pycharm 2020.2.3 con python 3.7.9 se segmentan cada
 Para la elaboración de la CNN se usaron las librerías de tensorflow keras, numpy, sklearn y matplotlib; La entrada de la red neuronal es el archivo .JSON explicado anteriormente que contiene la información de todos los MFCC, la capa interna con 512, 256 y 64 unidades respectivamente con función de activación relu, para finalmente una capa de salida con 10 unidades que son los tipos de audios que se quieren clasificar Asma, Bronquiectasia, Bronquiolitis, COPD (enfermedad pulmonar obstructiva crónica), LRTI (Infección del tracto respiratorio inferior), Neumonía y URTI (Infección del tracto respiratorio superior). 
 En este artículo se implementó el modelo CNN con la arquitectura Figura 12. con los parámetros de la Tabla 1.
 
+Tabla 1. Parámetros para el modelo CNN - clasificación de los sonidos respiratorios.
+![Tabla1](https://user-images.githubusercontent.com/88993846/132111567-b912adf1-9afc-455c-a46b-94140eae423a.JPG)
 
-\begin{table}[H]
-\centering
-\caption{Parámetros para el modelo CNN - clasificación de los sonidos respiratorios.}
-\label{tab:Constantes}
-\scalebox{1.1}{
-\begin{tabular}{c c}
-\hline\hline
-\textbf{Parámetros} & \textbf{Valor} 
-\\ \hline
-Batch size  & 32\\
-Droput Rate & 0.3\\
-Learning rate & 0.001\\
-Epochs & 100 \\
-\hline
-\hline
-\end{tabular}}
-\end{table}
 
 ![BloquesRed](https://user-images.githubusercontent.com/88993846/132111338-e3817214-038c-4c1d-a159-1c368976db0d.png)
 
